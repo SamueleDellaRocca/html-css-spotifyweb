@@ -245,7 +245,7 @@ nav .lista-nav li {
 
 
 
-
+/* FOOTER  */
 footer {
     width: 100%;
     height: 80px;
@@ -254,4 +254,47 @@ footer {
     bottom: 0;
     z-index: 1;
     padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-parte-sinistra, .footer-parte-destra {
+    width: 16%;
+    height: 100%;
+    display: flex;
+}
+
+
+
+
+/* parte sinistra  */
+.brano-in-ascolto {
+    display: flex;
+    align-items: center;
+}
+
+.brano-in-ascolto .img-brano {
+    width: 20%;
+}
+
+.img-brano .img-brano-sinister {
+    width: 100%;
+}
+
+.artista-brano {
+    margin-left: 10px;
+}
+
+.artista-brano .sottotitolo-artista-brano {
+    color: gray;
+    font-size: 0.8em;
+}
+
+.icone-brano {
+    color: gray;
+    margin-left: 50px;
+}
+
+.fa-folder {
+    margin-left: 15px;
 }
