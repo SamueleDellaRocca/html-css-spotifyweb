@@ -198,6 +198,10 @@ nav .lista-nav li {
 
 
 /* recently played  */
+.recently-played {
+    margin-bottom: 50px;
+}
+
 .ascoltate-recente {
     margin-top: 25px;
     display: flex;
@@ -221,6 +225,12 @@ nav .lista-nav li {
 
 .card .artista-img {
     color: gray;
+}
+
+.sottotitolo-creato-per {
+    color: gray;
+    font-size: 0.8em;
+    margin: 10px 0px;
 }
 
 
