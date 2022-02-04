@@ -10,32 +10,77 @@ html {
 }
 
 
-
+/* header  */
 header {
-    width: 12%;
+    width: 15%;
     height: 635px;
     background-color: hsl(0, 0%, 0%);
     float: left;
+    display: flex;
+    flex-direction: column;
+    color: gray;
 }
 
+/* logo header  */
 .logo-spotify {
     width: 130px;
     margin-top: 18px;
-    margin-left: 5px;
+    margin-left: 25px;
 }
 
+/* menù sidebar con le icone  */
 .menu-sidebar {
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 25px;
 }
 
+.home {
+    border-left: 3px solid hsl(84deg 100% 59%);
+    color: white;
+}
 
 .fa-house, .fa-magnifying-glass, .fa-bars {
     font-size: 1.5em;
 }
 
-.menu-sidebar .margin {
+.home, .search, .libreria {
     margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+/* menù PLAYLIST  */
+.playlist {
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+.playlist-titolo {
+    text-transform: uppercase;
+    color: white;
+}
+
+.crea-playlist {
+    margin: 20px 0px;
+    line-height: 35px;
+}
+
+.plus {
+    display: inline-block;
+    color: black;
+    height: 35px;
+    width: 35px;
+    background-color: hsl(0deg 0% 64%);
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.nome-playlist {
+    list-style: none;
+}
+
+.nome-playlist li {
+    margin-bottom: 5px;
 }
 
 
@@ -50,14 +95,14 @@ header {
 
 
 main {
-    width: 88%;
+    width: 85%;
     max-height: 635px;
     float: left;
     overflow-y: auto;
 }
 
 main .banner {
-    width: 88%;
+    width: 85%;
     height: 70px;
     background-color: hsl(222, 38.5%, 5.1%);
     position: fixed;
