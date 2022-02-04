@@ -142,6 +142,7 @@ main .banner {
     width: 85%;
     height: 70px;
     background-color: hsl(222, 38.5%, 5.1%);
+    opacity: 0.9;
     position: fixed;
     z-index: 2;
     display: flex;
