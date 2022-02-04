@@ -18,6 +18,37 @@ header {
     float: left;
 }
 
+.logo-spotify {
+    width: 130px;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.menu-sidebar {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+.fa-house, .fa-magnifying-glass, .fa-bars {
+    font-size: 1.5em;
+}
+
+.menu-sidebar .margin {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 main {
     width: 88%;
     max-height: 635px;
