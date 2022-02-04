@@ -262,6 +262,7 @@ footer {
     width: 16%;
     height: 100%;
     display: flex;
+    align-items: center;
 }
 
 
@@ -297,4 +298,36 @@ footer {
 
 .fa-folder {
     margin-left: 15px;
+}
+
+
+
+
+/* parte centrale  */
+
+
+
+
+
+
+
+
+
+
+
+/* parte sinistra  */
+.fa-list-ul, .fa-tv, .fa-volume-high {
+    margin-right: 20px;
+}
+
+.barra-lunga {
+    width: 50%;
+    height: 3px;
+    background-color: gray;
+}
+
+.barra-corta {
+    width: 20%;
+    height: 3px;
+    background-color: white;
 }
