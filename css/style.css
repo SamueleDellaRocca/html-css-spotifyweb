@@ -233,6 +233,9 @@ nav .lista-nav li {
     margin: 10px 0px;
 }
 
+.rotonde {
+    border-radius: 50%;
+}
 
 
 
@@ -250,4 +253,5 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: 1;
+    padding: 15px 15px;
 }
