@@ -38,9 +38,9 @@
             <div class="header-elementi-superiori">
 
                 <div class="menu-sidebar">
-                    <div class="home"><i class="fa-solid fa-house"></i> Home</div>
-                    <div class="search"><i class="fa-solid fa-magnifying-glass"></i> Cerca</div>
-                    <div class="libreria"><i class="fa-solid fa-bars"></i> La tua libreria</div>
+                    <div class="home"><button><i class="fa-solid fa-house"></i> Home</button></div>
+                    <div class="search"><button><i class="fa-solid fa-magnifying-glass"></i> Cerca</button></div>
+                    <div class="libreria"><button><i class="fa-solid fa-bars"></i> La tua libreria</button></div>
                 </div>
 
 
@@ -49,17 +49,18 @@
                 <div class="playlist">
                     <h3 class="playlist-titolo">Playlist </h3>
                     <div class="crea-playlist">
-                        <span class="plus"><i class="fa-solid fa-plus"></i></span> Crea Playlist
+                        <button><span class="plus"><i class="fa-solid fa-plus"></i></span> Crea Playlist</button>
                     </div>
 
                     <ul class="nome-playlist">
-                        <li class="elemento-playlist">Nome Playlist</li>
-                        <li class="elemento-playlist">Nome Playlist</li>
-                        <li class="elemento-playlist">Nome Playlist</li>
-                        <li class="elemento-playlist">Nome Playlist</li>
-                        <li class="elemento-playlist">Nome Playlist</li>
-                        <li class="elemento-playlist">Nome Playlist</li>
-                        <li class="elemento-playlist">Nome Playlist</li>
+                        <li class="elemento-playlist"><button>Nome Playlist</button></li>
+                        <li class="elemento-playlist"><button>Nome Playlist</button></li>
+                        <li class="elemento-playlist"><button>Nome Playlist</button></li>
+                        <li class="elemento-playlist"><button>Nome Playlist</button></li>
+                        <li class="elemento-playlist"><button>Nome Playlist</button></li>
+                        <li class="elemento-playlist"><button>Nome Playlist</button></li>
+                        <li class="elemento-playlist"><button>Nome Playlist</button></li>
+
                     </ul>
                 </div>
 
@@ -71,10 +72,11 @@
             <div class="header-elementi-inferiori">
 
                 <div class="sottoparte-sidebar">
-                    <div class="istalla-app"><i class="fa-solid fa-circle-arrow-down"></i> Installa app</div>
+                    <div class="istalla-app"><button><i class="fa-solid fa-circle-arrow-down"></i> Installa app</button>
+                    </div>
                     <div class="john-doe">
-                        <i class="fa-solid fa-circle-user"></i>
-                        John Doe
+                        <button><i class="fa-solid fa-circle-user"></i>
+                            John Doe</button>
                     </div>
                 </div>
 
@@ -109,12 +111,12 @@
             <nav>
 
                 <ul class="lista-nav">
-                    <li class="elementi-lista-nav">in evidenza</li>
-                    <li class="elementi-lista-nav">podcast</li>
-                    <li class="elementi-lista-nav">classifiche</li>
-                    <li class="elementi-lista-nav">generi e mood</li>
-                    <li class="elementi-lista-nav">nuove uscite </li>
-                    <li class="elementi-lista-nav">scopri</li>
+                    <li class="elementi-lista-nav"><button>in evidenza</button></li>
+                    <li class="elementi-lista-nav"><button> podcast</button></li>
+                    <li class="elementi-lista-nav"><button> classifiche</button></li>
+                    <li class="elementi-lista-nav"><button> generi e mood</button></li>
+                    <li class="elementi-lista-nav"><button> nuove uscite</button> </li>
+                    <li class="elementi-lista-nav"><button> scopri</button></li>
                 </ul>
 
 
@@ -264,7 +266,7 @@
     <footer>
 
 
-        <!-- footer parte centrale  -->
+        <!-- footer parte sinistra  -->
         <div class="footer-parte-sinistra">
 
             <div class="brano-in-ascolto">
@@ -281,8 +283,8 @@
                 </div>
 
                 <div class="icone-brano">
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-regular fa-folder"></i>
+                    <button><i class="fa-regular fa-heart"></i></button>
+                    <button><i class="fa-regular fa-folder"></i></button>
                 </div>
 
             </div>
@@ -296,6 +298,35 @@
         <!-- footer parte centrale  -->
         <div class="footer-parte-centrale">
 
+            <div class="comandi">
+                <button class="btn-track"><i class="fa-solid fa-shuffle"></i></button>
+                <button class="btn-track"><i class="fa-solid fa-backward-step"></i></button>
+                <button class="btn-track"><i class="fa-regular fa-circle-play"></i></button>
+                <button class="btn-track"><i class="fa-solid fa-forward-step"></i></button>
+                <button class="btn-track"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+            </div>
+
+
+
+            <div class="durata-brano">
+
+                <div class="momento-brano">
+                    0.25
+                </div>
+
+                <div class="durata-barra-lunga">
+                    <div class="durata-barra-corta"></div>
+                </div>
+
+                <div class="durata-totale-brano">
+                    4.35
+                </div>
+
+            </div>
+
+
+
+
         </div>
 
 
@@ -303,11 +334,11 @@
 
 
 
-        <!-- footer parte centrale  -->
+        <!-- footer parte destra  -->
         <div class="footer-parte-destra">
-            <i class="fa-solid fa-list-ul"></i>
-            <i class="fa-solid fa-tv"></i>
-            <i class="fa-solid fa-volume-high"></i>
+            <button><i class="fa-solid fa-list-ul"></i></button>
+            <button><i class="fa-solid fa-tv"></i></button>
+            <button><i class="fa-solid fa-volume-high"></i></button>
 
 
             <div class="barra-lunga">

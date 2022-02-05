@@ -9,6 +9,17 @@ html {
     color: white;
 }
 
+button {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    padding: 0px;
+    outline: inherit;
+    font: inherit;
+    text-transform: inherit;
+}
+
 
 /* header  */
 header {
@@ -112,11 +123,12 @@ header {
 }
 
 .istalla-app {
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     border-bottom: 1px solid gray;
 }
 
 .john-doe {
+    padding-top: 15px;
     color: white;
 }
 
@@ -253,7 +265,7 @@ footer {
     position: fixed;
     bottom: 0;
     z-index: 1;
-    padding: 15px 15px;
+    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
 }
@@ -303,7 +315,51 @@ footer {
 
 
 
+
+
 /* parte centrale  */
+.footer-parte-centrale {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.footer-parte-centrale .comandi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    font-size: 1em;
+}
+
+.fa-circle-play {
+    font-size: 2rem;
+}
+
+
+.footer-parte-centrale .durata-brano {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.durata-barra-lunga {
+    width: 70%;
+    height: 3px;
+    background-color: gray;
+}
+
+
+.durata-barra-corta {
+    width: 20%;
+    height: 3px;
+    background-color: white;
+}
 
 
 
@@ -313,11 +369,10 @@ footer {
 
 
 
-
-
-/* parte sinistra  */
+/* parte destra  */
 .fa-list-ul, .fa-tv, .fa-volume-high {
     margin-right: 20px;
+    font-size: 0.8em;
 }
 
 .barra-lunga {
