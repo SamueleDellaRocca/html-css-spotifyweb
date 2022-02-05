@@ -71,7 +71,10 @@ header {
     padding-left: 15px;
 }
 
-
+.libreria {
+    display: flex;
+    align-content: center;
+}
 
 
 
