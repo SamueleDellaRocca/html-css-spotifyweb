@@ -227,6 +227,7 @@ nav .lista-nav li {
 .card {
     margin-right: 15px;
     width: calc(100% / 6 - 15px);
+    min-width: 170px;
     text-align: center;
 }
 
@@ -348,6 +349,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 0.8em;
 }
 
 
