@@ -21,6 +21,7 @@ button {
 }
 
 
+
 /* header  */
 header {
     width: 15%;
@@ -182,7 +183,7 @@ main .banner {
     text-transform: uppercase;
     margin-right: 20px;
     padding: 10px 25px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 1px solid white;
     background-color: transparent;
     color: white;
@@ -336,7 +337,6 @@ footer {
 .brano-in-ascolto {
     display: flex;
     align-items: center;
-    flex-shrink: 0;
 }
 
 .brano-in-ascolto .img-brano {
