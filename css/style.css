@@ -238,6 +238,7 @@ nav .lista-nav li:hover {
     width: calc(100% / 6 - 15px);
     min-width: 170px;
     text-align: center;
+    cursor: pointer;
 }
 
 .card .card-img {
@@ -262,9 +263,28 @@ nav .lista-nav li:hover {
     border-radius: 50%;
 }
 
+/* effetto hover card  */
+.card:hover .card-img {
+    filter: brightness(0.4);
+}
+
+.card:hover .box-card-img .play-hoverato {
+    display: inline-block;
+}
+
+.box-card-img {
+    position: relative;
+}
 
 
-
+.fa-circle-play.play-hoverato {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 3em;
+}
 
 
 
@@ -358,7 +378,7 @@ footer {
     font-size: 2rem;
 }
 
-.fa-circle-play:hover {
+.scale:hover {
     transform: scale(1.1);
 }
 
