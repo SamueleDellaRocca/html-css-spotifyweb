@@ -83,6 +83,7 @@ header {
 .playlist {
     margin-top: 30px;
     padding-left: 15px;
+    overflow-y: auto;
 }
 
 .playlist-titolo {
@@ -94,6 +95,7 @@ header {
     margin: 20px 0px;
     line-height: 35px;
 }
+
 
 .plus {
     display: inline-block;
@@ -136,11 +138,14 @@ header {
 }
 
 
+/* effetti hover sidebar  */
+.btn-sidebar:hover {
+    color: white;
+}
 
-
-
-
-
+.btn-sidebar:hover .plus {
+    background-color: white;
+}
 
 
 
@@ -169,7 +174,7 @@ main .banner {
 
 .banner .upgrade {
     text-transform: uppercase;
-    margin-right: 5px;
+    margin-right: 20px;
     padding: 10px 25px;
     border-radius: 15px;
     border: 1px solid white;
@@ -177,7 +182,9 @@ main .banner {
     color: white;
 }
 
-
+.upgrade:hover {
+    transform: scale(1.1);
+}
 
 
 
@@ -207,7 +214,9 @@ nav .lista-nav li {
     font-weight: bold;
 }
 
-
+nav .lista-nav li:hover {
+    color: white;
+}
 
 
 
@@ -307,6 +316,11 @@ footer {
     font-size: 0.8em;
 }
 
+.brano-nome:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .icone-brano {
     color: gray;
     margin-left: 50px;
@@ -344,6 +358,10 @@ footer {
     font-size: 2rem;
 }
 
+.fa-circle-play:hover {
+    transform: scale(1.1);
+}
+
 
 .footer-parte-centrale .durata-brano {
     display: flex;
@@ -357,6 +375,7 @@ footer {
     width: 70%;
     height: 3px;
     background-color: gray;
+    cursor: pointer;
 }
 
 
@@ -367,7 +386,9 @@ footer {
 }
 
 
-
+.durata-barra-lunga:hover .durata-barra-corta {
+    background-color: yellowgreen;
+}
 
 
 
@@ -384,10 +405,15 @@ footer {
     width: 50%;
     height: 3px;
     background-color: gray;
+    cursor: pointer;
 }
 
 .barra-corta {
     width: 20%;
     height: 3px;
     background-color: white;
+}
+
+.barra-lunga:hover .barra-corta {
+    background-color: yellowgreen;
 }
