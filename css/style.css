@@ -42,6 +42,7 @@ header {
 
 .header-elementi {
     height: 100%;
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -109,8 +110,13 @@ header {
     margin-right: 10px;
 }
 
+.overflow {
+    overflow-y: auto;
+}
+
 .nome-playlist {
     list-style: none;
+    overflow-y: auto;
 }
 
 .nome-playlist li {
@@ -218,6 +224,19 @@ nav .lista-nav li:hover {
     color: white;
 }
 
+.relative {
+    position: relative;
+}
+
+.barra {
+    position: absolute;
+    height: 2px;
+    width: 30%;
+    background-color: yellowgreen;
+    left: 38px;
+    margin-top: 5px;
+}
+
 
 
 
@@ -317,6 +336,7 @@ footer {
 .brano-in-ascolto {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .brano-in-ascolto .img-brano {
@@ -324,7 +344,7 @@ footer {
 }
 
 .img-brano .img-brano-sinister {
-    width: 100%;
+    width: 48.2px;
 }
 
 .artista-brano {
