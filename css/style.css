@@ -423,13 +423,27 @@ footer {
     width: 20%;
     height: 3px;
     background-color: white;
+    position: relative;
 }
 
+.pallino-bianco2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    left: 77px;
+    top: -3px;
+    display: none;
+}
 
 .durata-barra-lunga:hover .durata-barra-corta {
     background-color: yellowgreen;
 }
 
+.durata-barra-lunga:hover .pallino-bianco2 {
+    display: inline-block;
+}
 
 
 
@@ -452,8 +466,24 @@ footer {
     width: 20%;
     height: 3px;
     background-color: white;
+    position: relative;
+}
+
+.pallino-bianco {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    left: 17px;
+    top: -3px;
+    display: none;
 }
 
 .barra-lunga:hover .barra-corta {
     background-color: yellowgreen;
+}
+
+.barra-lunga:hover .pallino-bianco {
+    display: inline-block;
 }
