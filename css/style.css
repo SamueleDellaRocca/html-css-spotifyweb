@@ -43,6 +43,13 @@ header {
     margin-left: 25px;
 }
 
+.logo-small {
+    width: 32px;
+    margin-top: 18px;
+    margin-left: 15px;
+    display: none;
+}
+
 .header-elementi {
     height: 100%;
     overflow-y: hidden;
@@ -572,7 +579,24 @@ footer {
     }
 
     .hidden {
-        visibility: hidden;
+        display: none;
     }
 
+    .none {
+        display: none;
+    }
+
+    .logo-small {
+        display: inline-block;
+    }
+
+    .home {
+        border-left: 0px;
+
+    }
+
+    .istalla-app {
+        padding-bottom: 15px;
+        border-bottom: 0px;
+    }
 }
