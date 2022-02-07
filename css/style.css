@@ -149,6 +149,12 @@ header {
     border-bottom: 1px solid gray;
 }
 
+.svg-user {
+    background-color: gray;
+    padding: 3px;
+    border-radius: 50%;
+}
+
 .john-doe {
     padding-top: 15px;
     color: white;
@@ -340,11 +346,18 @@ footer {
     justify-content: space-between;
 }
 
+
+
+
 .footer-parte-sinistra, .footer-parte-destra {
-    width: 302px;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.footer-parte-centrale {
+    width: 35%;
 }
 
 
@@ -354,24 +367,28 @@ footer {
 .brano-in-ascolto {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.brano-in-ascolto .img-brano {
-    width: 20%;
-}
+
 
 .img-brano .img-brano-sinister {
     width: 48.2px;
+    margin-right: 20px;
 }
 
 .artista-brano {
-    margin-left: 10px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .artista-brano .sottotitolo-artista-brano {
     color: gray;
     font-size: 0.8em;
 }
+
 
 .brano-nome:hover {
     color: white;
@@ -380,7 +397,7 @@ footer {
 
 .icone-brano {
     color: gray;
-    margin-left: 50px;
+    display: flex;
 }
 
 .fa-folder {
@@ -394,7 +411,6 @@ footer {
 
 /* parte centrale  */
 .footer-parte-centrale {
-    width: 740px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -406,7 +422,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    width: 198px;
     margin: auto;
     font-size: 1em;
 }
@@ -422,14 +438,14 @@ footer {
 
 .footer-parte-centrale .durata-brano {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 0.8em;
 }
 
 
 .durata-barra-lunga {
-    width: 70%;
+    width: 368px;
     height: 3px;
     background-color: gray;
     cursor: pointer;
@@ -462,6 +478,14 @@ footer {
     display: inline-block;
 }
 
+.momento-brano {
+    margin-right: 10px;
+}
+
+.durata-totale-brano {
+    margin-left: 10px;
+}
+
 
 
 
@@ -473,7 +497,7 @@ footer {
 }
 
 .barra-lunga {
-    width: 50%;
+    width: 112px;
     height: 3px;
     background-color: gray;
     cursor: pointer;
@@ -514,7 +538,7 @@ footer {
 
 /* MEDIA QUERIES */
 
-/* medium  */
+/* large  */
 @media screen and (max-width:879px) {
 
     .card {
@@ -531,7 +555,46 @@ footer {
         margin-top: 50px;
     }
 
+
 }
+
+
+
+
+
+/* medium  */
+@media screen and (max-width:792px) {
+
+    .img-brano .img-brano-sinister {
+        margin-right: 0px;
+    }
+
+    .pallino-bianco2 {
+        left: 35px;
+    }
+
+    .pallino-bianco {
+        left: 5px;
+    }
+
+}
+
+
+
+@media screen and (max-width:688px) {
+    .footer-parte-sinistra, .footer-parte-destra {
+        width: 20%;
+    }
+
+    .footer-parte-centrale {
+        width: 30%;
+    }
+
+    .footer-parte-centrale .comandi {
+        width: 40%;
+    }
+}
+
 
 
 
@@ -549,12 +612,12 @@ footer {
     }
 
     .recently-played {
-        margin-top: 0px;
+        margin-top: 30px;
         margin-bottom: 50px;
     }
 
     nav {
-        margin-bottom: 100px;
+        margin-bottom: 140px;
     }
 
     .barra {
@@ -566,16 +629,21 @@ footer {
 
 
 
+
+
+
+
 /* extra small  */
 @media screen and (max-width: 552px) {
 
     :root {
-        --width-header: 65px;
+        --width-header: 60px;
     }
 
     header {
         overflow: hidden;
         max-width: 65px;
+        padding-right: 0px;
     }
 
     .hidden {
@@ -588,15 +656,16 @@ footer {
 
     .logo-small {
         display: inline-block;
+        margin-left: 13px;
     }
 
     .home {
         border-left: 0px;
-
     }
 
     .istalla-app {
         padding-bottom: 15px;
+        padding-left: 5px;
         border-bottom: 0px;
     }
 }
