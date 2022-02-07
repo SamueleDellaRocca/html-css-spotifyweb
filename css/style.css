@@ -555,3 +555,24 @@ footer {
     }
 
 }
+
+
+
+
+/* extra small  */
+@media screen and (max-width: 552px) {
+
+    :root {
+        --width-header: 65px;
+    }
+
+    header {
+        overflow: hidden;
+        max-width: 65px;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+
+}

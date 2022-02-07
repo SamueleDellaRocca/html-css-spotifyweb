@@ -27,7 +27,7 @@
     <header>
 
 
-        <img class="logo-spotify" src="img/logo.svg" alt="logo spotify">
+        <img class="logo-spotify hidden" src="img/logo.svg" alt="logo spotify">
 
 
 
@@ -37,9 +37,10 @@
             <div class="header-elementi-superiori">
 
                 <div class="menu-sidebar">
-                    <div class="home"><button><i class="fa-solid fa-house"></i></button> <button> Home</button></div>
+                    <div class="home"><button><i class="fa-solid fa-house"></i></button> <button class="hidden">
+                            Home</button></div>
                     <div class="search btn-sidebar"><button class="btn-sidebar"><i
-                                class="fa-solid fa-magnifying-glass"></i></button> <button class="btn-sidebar">
+                                class="fa-solid fa-magnifying-glass"></i></button> <button class="btn-sidebar hidden">
                             Cerca</button></div>
                     <div class="libreria btn-sidebar"><button class="btn-sidebar"><svg class="library-svg"
                                 viewBox="0 0 512 512" height="30px" xmlns="http://www.w3.org/2000/svg">
@@ -47,14 +48,14 @@
                                     d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z"
                                     fill="gray" class="btn-sidebar" />
                             </svg></button>
-                        <button class="btn-sidebar">La tua libreria</button>
+                        <button class="btn-sidebar hidden">La tua libreria</button>
                     </div>
                 </div>
 
 
 
 
-                <div class="playlist">
+                <div class="playlist hidden">
                     <h3 class="playlist-titolo">Playlist </h3>
                     <div class="crea-playlist">
                         <button class="btn-sidebar"><span class="plus"><i class="fa-solid fa-plus"></i></span> Crea
@@ -84,11 +85,11 @@
 
                 <div class="sottoparte-sidebar">
                     <div class="istalla-app btn-sidebar"><button class="btn-sidebar"><i
-                                class="fa-solid fa-circle-arrow-down"></i></button> <button>
+                                class="fa-solid fa-circle-arrow-down"></i></button> <button class="hidden">
                             Installa app</button>
                     </div>
                     <div class="john-doe btn-sidebar">
-                        <button><i class="fa-solid fa-circle-user"></i></button> <button>
+                        <button><i class="fa-solid fa-circle-user"></i></button> <button class="hidden">
                             John Doe</button>
                     </div>
                 </div>
