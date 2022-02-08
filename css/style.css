@@ -419,13 +419,6 @@ footer {
 
 
 /* parte sinistra  */
-.brano-in-ascolto {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
 
 .img-brano .img-brano-sinister {
     width: 48.2px;
@@ -444,6 +437,9 @@ footer {
     font-size: 0.8em;
 }
 
+.brano-nome {
+    min-width: 70px;
+}
 
 .brano-nome:hover {
     color: white;
