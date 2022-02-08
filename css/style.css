@@ -88,6 +88,10 @@ header {
     border-left: 3px solid transparent;
 }
 
+.library-svg {
+    opacity: 0.6;
+}
+
 .search {
     border-left: 3px solid transparent;
 
@@ -100,7 +104,6 @@ header {
 .playlist {
     margin-top: 30px;
     padding-left: 15px;
-    overflow-y: auto;
     border-left: 3px solid transparent;
 
 }
@@ -128,15 +131,11 @@ header {
     margin-right: 10px;
 }
 
-.overflow {
-    overflow-y: auto;
-    height: max-content;
-}
 
 .nome-playlist {
     list-style: none;
     overflow-y: auto;
-    height: 31vh;
+    height: 29vh;
 }
 
 .nome-playlist li {
@@ -150,7 +149,7 @@ header {
 /* parte inferiore side bar  */
 .sottoparte-sidebar {
     padding-left: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     border-left: 3px solid transparent;
 
 }
@@ -166,8 +165,10 @@ header {
     border-radius: 50%;
 }
 
+
 .john-doe {
     padding-top: 15px;
+    margin-bottom: 15px;
     color: white;
 }
 
@@ -175,6 +176,10 @@ header {
 /* effetti hover sidebar  */
 .btn-sidebar:hover {
     color: white;
+}
+
+.btn-sidebar:hover .library-svg {
+    opacity: 1;
 }
 
 .btn-sidebar:hover .plus {
