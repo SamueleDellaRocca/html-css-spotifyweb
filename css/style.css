@@ -219,6 +219,7 @@ main .banner {
     50% {
         justify-content: flex-start;
         align-items: center;
+        background-color: green;
     }
 
     75% {
@@ -235,9 +236,28 @@ main .banner {
     border: 1px solid white;
     background-color: transparent;
     color: white;
-
+    animation-name: animazione-upgrade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
+@keyframes animazione-upgrade {
+    25% {
+        color: red;
+        transform: scale(0.8);
+    }
+
+    50% {
+        color: white;
+        transform: scale(1.2);
+    }
+
+    75% {
+        color: red;
+        transform: scale(0.8);
+    }
+}
 
 
 .upgrade:hover {
