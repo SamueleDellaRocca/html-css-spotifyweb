@@ -524,7 +524,7 @@ footer {
     height: 10px;
     border-radius: 50%;
     background-color: white;
-    left: 77px;
+    left: 100%;
     top: -3px;
     display: none;
 }
@@ -575,7 +575,7 @@ footer {
     height: 10px;
     border-radius: 50%;
     background-color: white;
-    left: 17px;
+    left: 100%;
     top: -3px;
     display: none;
 }
@@ -628,13 +628,13 @@ footer {
         margin-right: 0px;
     }
 
-    .pallino-bianco2 {
-        left: 35px;
+    /* .pallino-bianco2 {
+        left: 5px;
     }
 
     .pallino-bianco {
         left: 5px;
-    }
+    } */
 
 }
 
