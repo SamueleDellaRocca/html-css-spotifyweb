@@ -689,6 +689,10 @@ footer {
         --width-header: 60px;
     }
 
+    .recently-played {
+        margin-top: -40px;
+    }
+
     header {
         overflow: hidden;
         max-width: 65px;
