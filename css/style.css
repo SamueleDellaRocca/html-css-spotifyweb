@@ -204,6 +204,27 @@ main .banner {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    animation-name: spostamento;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spostamento {
+    25% {
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    50% {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    75% {
+        justify-content: center;
+        align-items: flex-end;
+    }
 }
 
 .banner .upgrade {
@@ -214,7 +235,10 @@ main .banner {
     border: 1px solid white;
     background-color: transparent;
     color: white;
+
 }
+
+
 
 .upgrade:hover {
     transform: scale(1.1);
