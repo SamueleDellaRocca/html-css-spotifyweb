@@ -726,6 +726,14 @@ footer {
         width: 30%;
     }
 
+    .footer-parte-centrale {
+        margin-left: 28px;
+    }
+
+    .footer-parte-sinistra {
+        margin-left: -10px;
+    }
+
     .footer-parte-destra {
         flex-direction: column;
     }
@@ -736,11 +744,16 @@ footer {
         align-items: center;
         margin: auto;
         font-size: 1em;
+        margin-left: 30px;
     }
 
     .icone-brano {
         margin-left: -15px;
         flex-direction: column;
+    }
+
+    .artista-brano {
+        margin-left: 6px;
     }
 
     .fa-folder {
