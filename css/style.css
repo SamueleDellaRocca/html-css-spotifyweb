@@ -668,6 +668,11 @@ footer {
         margin-top: -10px;
     }
 
+    .fa-list-ul, .fa-tv, .fa-volume-high {
+        margin-right: 5px;
+
+    }
+
 }
 
 
@@ -721,6 +726,10 @@ footer {
         width: 30%;
     }
 
+    .footer-parte-destra {
+        flex-direction: column;
+    }
+
     .footer-parte-centrale .comandi {
         display: flex;
         justify-content: space-between;
@@ -731,5 +740,10 @@ footer {
 
     .icone-brano {
         margin-left: -15px;
+        flex-direction: column;
+    }
+
+    .fa-folder {
+        margin-left: 2px;
     }
 }
