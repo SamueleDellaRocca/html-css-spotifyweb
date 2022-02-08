@@ -85,6 +85,12 @@ header {
 .libreria {
     display: flex;
     align-content: center;
+    border-left: 3px solid transparent;
+}
+
+.search {
+    border-left: 3px solid transparent;
+
 }
 
 
@@ -95,6 +101,8 @@ header {
     margin-top: 30px;
     padding-left: 15px;
     overflow-y: auto;
+    border-left: 3px solid transparent;
+
 }
 
 .playlist-titolo {
@@ -143,6 +151,8 @@ header {
 .sottoparte-sidebar {
     padding-left: 15px;
     padding-bottom: 10px;
+    border-left: 3px solid transparent;
+
 }
 
 .istalla-app {
